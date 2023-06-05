@@ -1,59 +1,336 @@
-<mxfile host="app.diagrams.net" modified="2023-06-04T13:31:10.051Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="v1lCOWffXiIWRc83LLx5" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-05T08:22:15.949Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="xQoSxga7kbWTRz9lNfO_" version="21.3.2" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="1259" dy="1066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2390" dy="1273" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="600" pageHeight="420" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="aM9ryv3xv72pqoxQDRHE-1" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="100" height="300" as="geometry" />
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-1" value="사용자" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="60" y="40" width="80" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="aM9ryv3xv72pqoxQDRHE-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="aM9ryv3xv72pqoxQDRHE-1">
-          <mxGeometry x="45" y="70" width="10" height="190" as="geometry" />
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="aM9ryv3xv72pqoxQDRHE-1" vertex="1">
+          <mxGeometry x="35" y="65" width="10" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="aM9ryv3xv72pqoxQDRHE-3" value="dispatch" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="aM9ryv3xv72pqoxQDRHE-1" target="aM9ryv3xv72pqoxQDRHE-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-15" y="70" as="sourcePoint" />
-          </mxGeometry>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="aM9ryv3xv72pqoxQDRHE-1">
+          <mxGeometry x="35" y="175" width="10" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="aM9ryv3xv72pqoxQDRHE-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="aM9ryv3xv72pqoxQDRHE-1">
-          <mxGeometry x="50" y="120" width="10" height="80" as="geometry" />
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-5" value="전원 버튼" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="180" y="40" width="70" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="aM9ryv3xv72pqoxQDRHE-5" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="220" y="40" width="100" height="300" as="geometry" />
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="aM9ryv3xv72pqoxQDRHE-5" vertex="1">
+          <mxGeometry x="30" y="70" width="10" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="aM9ryv3xv72pqoxQDRHE-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="aM9ryv3xv72pqoxQDRHE-5">
-          <mxGeometry x="45" y="80" width="10" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="aM9ryv3xv72pqoxQDRHE-7" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="aM9ryv3xv72pqoxQDRHE-2" target="aM9ryv3xv72pqoxQDRHE-6">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-7" value="3초 이상 누른다" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="aM9ryv3xv72pqoxQDRHE-2" target="aM9ryv3xv72pqoxQDRHE-6" edge="1">
+          <mxGeometry x="0.0095" relative="1" as="geometry">
             <mxPoint x="195" y="130" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="180" y="120" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aM9ryv3xv72pqoxQDRHE-8" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="aM9ryv3xv72pqoxQDRHE-6" target="aM9ryv3xv72pqoxQDRHE-2">
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-8" value="전원을 켠다" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="aM9ryv3xv72pqoxQDRHE-6" target="aM9ryv3xv72pqoxQDRHE-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="195" y="205" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="180" y="180" />
               <mxPoint x="190" y="280" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="aM9ryv3xv72pqoxQDRHE-9" value="callback" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="aM9ryv3xv72pqoxQDRHE-6" target="aM9ryv3xv72pqoxQDRHE-4">
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-2" value="문 닫힘 센서" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="70" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="d5pP0vXPX3hY35iYwF1s-2">
+          <mxGeometry x="30" y="290" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-4" value="예약 버튼" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="270" y="40" width="60" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="d5pP0vXPX3hY35iYwF1s-4">
+          <mxGeometry x="25" y="180" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-8" value="누수 감지 센서" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1880" y="40" width="90" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-79" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="d5pP0vXPX3hY35iYwF1s-8">
+          <mxGeometry x="40" y="90" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-80" value="&lt;p style=&quot;border-color: var(--border-color); margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-align: center; direction: ltr; unicode-bidi: embed;&quot;&gt;누수가 감지된 경우&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-align: center; direction: ltr; unicode-bidi: embed;&quot;&gt;경고음과 에러 코드를 알린다&lt;/p&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="d5pP0vXPX3hY35iYwF1s-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="175" y="160" as="sourcePoint" />
+            <mxPoint x="51" y="106" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="190" y="160" />
+              <mxPoint x="81" y="106" />
+              <mxPoint x="81" y="126" />
             </Array>
+            <mxPoint as="offset" />
+            <mxPoint x="51" y="126" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aM9ryv3xv72pqoxQDRHE-10" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="aM9ryv3xv72pqoxQDRHE-4" target="aM9ryv3xv72pqoxQDRHE-6">
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-10" value="세제통 센서" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1690" y="40" width="70" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-75" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="d5pP0vXPX3hY35iYwF1s-10">
+          <mxGeometry x="29" y="85" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-76" value="&lt;p style=&quot;language:ko;margin-top:0pt;margin-bottom:0pt;margin-left:0in;&lt;br/&gt;text-align:center;direction:ltr;unicode-bidi:embed;mso-line-break-override:&lt;br/&gt;none;word-break:break-hangul;punctuation-wrap:hanging&quot;&gt;세제의 양이 적거나 없을 경우&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;language:ko;margin-top:0pt;margin-bottom:0pt;margin-left:0in;&lt;br/&gt;text-align:center;direction:ltr;unicode-bidi:embed;mso-line-break-override:&lt;br/&gt;none;word-break:break-hangul;punctuation-wrap:hanging&quot;&gt;경고음과 에러 코드를 알린다&lt;br&gt;&lt;/p&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="d5pP0vXPX3hY35iYwF1s-10">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="175" y="235" as="targetPoint" />
+            <mxPoint x="40" y="101" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="180" y="230" />
+              <mxPoint x="70" y="101" />
+              <mxPoint x="70" y="121" />
             </Array>
+            <mxPoint as="offset" />
+            <mxPoint x="40" y="121" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-12" value="메인보드" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="490" y="40" width="70" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="d5pP0vXPX3hY35iYwF1s-12">
+          <mxGeometry x="30" y="80" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-66" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="d5pP0vXPX3hY35iYwF1s-12">
+          <mxGeometry x="30" y="190" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-68" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="d5pP0vXPX3hY35iYwF1s-12">
+          <mxGeometry x="30" y="290" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-14" value="디스플레이" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1560" y="40" width="70" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="d5pP0vXPX3hY35iYwF1s-14">
+          <mxGeometry x="30" y="80" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-71" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="d5pP0vXPX3hY35iYwF1s-14">
+          <mxGeometry x="30" y="170" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-69" value="남은 동작 시간을&lt;br&gt;&amp;nbsp;표시한다" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="d5pP0vXPX3hY35iYwF1s-14" source="d5pP0vXPX3hY35iYwF1s-15" target="d5pP0vXPX3hY35iYwF1s-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-80" y="100" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="60" y="100" />
+              <mxPoint x="60" y="120" />
+            </Array>
+            <mxPoint as="offset" />
+            <mxPoint x="-80" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-70" value="&lt;p style=&quot;language:ko;margin-top:0pt;margin-bottom:0pt;margin-left:0in;&lt;br/&gt;text-align:center;direction:ltr;unicode-bidi:embed;mso-line-break-override:&lt;br/&gt;none;word-break:break-hangul;punctuation-wrap:hanging&quot;&gt;세제의 용량을&lt;/p&gt;&lt;p style=&quot;language:ko;margin-top:0pt;margin-bottom:0pt;margin-left:0in;&lt;br/&gt;text-align:center;direction:ltr;unicode-bidi:embed;mso-line-break-override:&lt;br/&gt;none;word-break:break-hangul;punctuation-wrap:hanging&quot;&gt;표시한다&lt;/p&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="d5pP0vXPX3hY35iYwF1s-14" source="d5pP0vXPX3hY35iYwF1s-71" target="d5pP0vXPX3hY35iYwF1s-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-80" y="194" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="60" y="180" />
+              <mxPoint x="60" y="200" />
+            </Array>
+            <mxPoint as="offset" />
+            <mxPoint x="-80" y="214" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-16" value="스피커" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="730" y="40" width="70" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="d5pP0vXPX3hY35iYwF1s-16">
+          <mxGeometry x="30" y="80" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-18" value="스프링클러" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="970" y="40" width="70" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-54" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="d5pP0vXPX3hY35iYwF1s-18">
+          <mxGeometry x="30" y="205" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-55" value="60~65도의 물을&lt;br&gt;사출시킨다" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="d5pP0vXPX3hY35iYwF1s-18" source="d5pP0vXPX3hY35iYwF1s-54" target="d5pP0vXPX3hY35iYwF1s-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="36" y="185" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="66" y="215" />
+              <mxPoint x="66" y="235" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-20" value="물 가열부" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="820" y="40" width="70" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-47" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="d5pP0vXPX3hY35iYwF1s-20">
+          <mxGeometry x="30" y="200" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-48" value="물을 정해진 온도로 &lt;br&gt;가열시킨다" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="d5pP0vXPX3hY35iYwF1s-47" parent="d5pP0vXPX3hY35iYwF1s-20" source="d5pP0vXPX3hY35iYwF1s-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="35" y="180" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="65" y="210" />
+              <mxPoint x="65" y="230" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-22" value="모터" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1100" y="40" width="70" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-50" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="d5pP0vXPX3hY35iYwF1s-22">
+          <mxGeometry x="30" y="200" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-51" value="중간과 하단의&lt;br&gt;날개로 물을&lt;br&gt;회전시킨다" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="d5pP0vXPX3hY35iYwF1s-22" source="d5pP0vXPX3hY35iYwF1s-50" target="d5pP0vXPX3hY35iYwF1s-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="185" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="70" y="210" />
+              <mxPoint x="70" y="230" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-24" value="건조기" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1240" y="40" width="70" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-28" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed;&quot;&gt;전원이 켜졌다는 신호를 전달한다&lt;/p&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="d5pP0vXPX3hY35iYwF1s-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="130" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="250" y="130" />
+              <mxPoint x="295" y="130" />
+            </Array>
+            <mxPoint x="480" y="130" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-29" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed;&quot;&gt;전원이 켜지는 소리를 내라는 명령을 한다&amp;nbsp;&lt;br&gt;&lt;/p&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="d5pP0vXPX3hY35iYwF1s-13" target="d5pP0vXPX3hY35iYwF1s-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="140" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="700" y="140" />
+              <mxPoint x="745" y="140" />
+            </Array>
+            <mxPoint x="1115" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-31" value="전원이 켜지는 소리를 낸다" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="d5pP0vXPX3hY35iYwF1s-17" target="d5pP0vXPX3hY35iYwF1s-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="755" y="160" />
+            </Array>
+            <mxPoint x="775" y="160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-32" value="전원을 켠다" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="d5pP0vXPX3hY35iYwF1s-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="170" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="500" y="170" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-35" value="버튼을 누르고 시간을 정한다" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0053" relative="1" as="geometry">
+            <mxPoint x="106" y="230" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="181" y="230" />
+            </Array>
+            <mxPoint x="295" y="230" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-36" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed;&quot;&gt;입력된 시간 정보를 전달한다&lt;/p&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="d5pP0vXPX3hY35iYwF1s-66">
+          <mxGeometry x="0.0053" relative="1" as="geometry">
+            <mxPoint x="308" y="240" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="383" y="240" />
+            </Array>
+            <mxPoint x="510" y="240" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-37" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed;&quot;&gt;작동 신호를 보낸다&lt;/p&gt;" style="html=1;verticalAlign=bottom;endArrow=open;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endFill=0;exitX=1;exitY=0.333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="d5pP0vXPX3hY35iYwF1s-66" target="d5pP0vXPX3hY35iYwF1s-47">
+          <mxGeometry x="0.0053" relative="1" as="geometry">
+            <mxPoint x="540" y="250" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="746" y="250" />
+            </Array>
+            <mxPoint x="830" y="250" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-38" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="html=1;verticalAlign=bottom;endArrow=open;elbow=vertical;rounded=0;endFill=0;strokeColor=none;" edge="1" parent="1" source="d5pP0vXPX3hY35iYwF1s-20">
+          <mxGeometry x="-1" y="68" relative="1" as="geometry">
+            <mxPoint x="930" y="180" as="sourcePoint" />
+            <mxPoint x="855" y="380" as="targetPoint" />
+            <mxPoint x="-54" y="28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-56" value="입력한 시간 정보대로 작동한다" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="d5pP0vXPX3hY35iYwF1s-66" target="d5pP0vXPX3hY35iYwF1s-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="280" />
+            </Array>
+            <mxPoint x="510" y="280" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-57" value="입력한 시간 정보대로 작동한다" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="d5pP0vXPX3hY35iYwF1s-5" target="d5pP0vXPX3hY35iYwF1s-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="175" y="300" />
+            </Array>
+            <mxPoint x="260" y="300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-60" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1270" y="244" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-61" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;고온의 공기를&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;내보내 &lt;span style=&quot;font-family: &amp;quot;맑은 고딕&amp;quot;;&quot;&gt;건조시킨다&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1" source="d5pP0vXPX3hY35iYwF1s-60" target="d5pP0vXPX3hY35iYwF1s-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1295" y="229" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1310" y="250" />
+              <mxPoint x="1310" y="270" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-62" value="물 방출 센서" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2090" y="40" width="70" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-77" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="d5pP0vXPX3hY35iYwF1s-62">
+          <mxGeometry x="29" y="90" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-78" value="&lt;p style=&quot;language:ko;margin-top:0pt;margin-bottom:0pt;margin-left:0in;&lt;br/&gt;text-align:center;direction:ltr;unicode-bidi:embed;mso-line-break-override:&lt;br/&gt;none;word-break:break-hangul;punctuation-wrap:hanging&quot;&gt;설정된 만큼의 물이 방출되고 있는지 확인하고&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;language:ko;margin-top:0pt;margin-bottom:0pt;margin-left:0in;&lt;br/&gt;text-align:center;direction:ltr;unicode-bidi:embed;mso-line-break-override:&lt;br/&gt;none;word-break:break-hangul;punctuation-wrap:hanging&quot;&gt;상시 물의 양을 체크할 수 있어야 한다&lt;span style=&quot;font-size: 12pt; font-family: &amp;quot;맑은 고딕&amp;quot;;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="d5pP0vXPX3hY35iYwF1s-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="106" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="70" y="106" />
+              <mxPoint x="70" y="126" />
+            </Array>
+            <mxPoint as="offset" />
+            <mxPoint x="40" y="126" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-64" value="UV램프" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1380" y="40" width="70" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-81" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="d5pP0vXPX3hY35iYwF1s-64">
+          <mxGeometry x="30" y="90" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-82" value="항상 식기를 &lt;br&gt;살균하도록 작동된다" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="d5pP0vXPX3hY35iYwF1s-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="41" y="106" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="71" y="106" />
+              <mxPoint x="71" y="126" />
+            </Array>
+            <mxPoint as="offset" />
+            <mxPoint x="41" y="126" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5pP0vXPX3hY35iYwF1s-72" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed;&quot;&gt;문이 닫힘을 &lt;span style=&quot;font-family: &amp;quot;맑은 고딕&amp;quot;;&quot;&gt;전기&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;맑은 고딕&amp;quot;;&quot;&gt;신호로 전달한다&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="html=1;verticalAlign=bottom;endArrow=open;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endFill=0;" edge="1" parent="1" source="d5pP0vXPX3hY35iYwF1s-3" target="d5pP0vXPX3hY35iYwF1s-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="330" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="490" y="340" />
+              <mxPoint x="475" y="330" />
+            </Array>
+            <mxPoint x="612" y="330" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
